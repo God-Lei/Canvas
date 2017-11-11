@@ -85,7 +85,7 @@ https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/path.
   ctx.lineTo(100,100);
   ctx.stroke();
 
-  ![缺角三角形](C:\Users\Administrator\Desktop\canvas\Typora中images\缺角三角形.png)
+  https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E7%BC%BA%E8%A7%92%E4%B8%89%E8%A7%92%E5%BD%A2.png?raw=true
 
 
 - ctx.moveTo(100,100);
@@ -97,7 +97,7 @@ https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/path.
       /*用闭合方法 填充这个缺角*/
       ctx.closePath();
       ctx.stroke();
-  ![闭合后的三角](C:\Users\Administrator\Desktop\canvas\Typora中images\闭合后的三角.png)
+  https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E9%97%AD%E5%90%88%E5%90%8E%E7%9A%84%E4%B8%89%E8%A7%92.png?raw=true
 
 #### 6. 绘制一个矩形
 
@@ -125,7 +125,7 @@ ctx.lineCap = 'butt';		ctx.lineCap = 'square';				 ctx.lineCap = 'round';
 ctx.lineJoin = 'miter';		ctx.lineJoin = 'bevel';				 ctx.lineJoin = 'round';
 ctx.stroke();
 
-![三种折线](C:\Users\Administrator\Desktop\canvas\Typora中images\三种折线.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E4%B8%89%E7%A7%8D%E6%8A%98%E7%BA%BF.png?raw=true
 
 #### 8. 绘制一条虚线
 
@@ -144,7 +144,7 @@ console.log(ctx.getLineDash());
 
 ctx.stroke();
 
-![虚线](C:\Users\Administrator\Desktop\canvas\Typora中images\虚线.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E8%99%9A%E7%BA%BF.png?raw=true
 
 #### 9. 线的颜色渐变
 
@@ -162,7 +162,7 @@ for(var i = 1 ; i <= 255 ; i ++){
   ctx.lineTo(100+i,100);
   ctx.strokeStyle = 'rgb(255,'+(255-i)+','+(255-i)+')';
   ctx.stroke();
-![线的颜色渐变](C:\Users\Administrator\Desktop\canvas\Typora中images\线的颜色渐变.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E7%BA%BF%E7%9A%84%E9%A2%9C%E8%89%B2%E6%B8%90%E5%8F%98.png?raw=true
 
 渐变Gradients
 
@@ -170,7 +170,7 @@ for(var i = 1 ; i <= 255 ; i ++){
 
 createLinearGradient(x1, y1, x2, y2) createLinearGradient 方法接受 4 个参数，表示渐变的起点 (x1,y1) 与终点 (x2,y2)。
 
-![线性渐变](C:\Users\Administrator\Desktop\canvas\Typora中images\线性渐变.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98.png?raw=true
 
 - 径向渐变
 
@@ -178,7 +178,7 @@ createRadialGradient(x1, y1, r1, x2, y2, r2) createRadialGradient 方法接受 6
 
 创建出 canvasGradient 对象后，我们就可以用 addColorStop 方法给它上色了。
 
-![径向渐变(同心)](C:\Users\Administrator\Desktop\canvas\Typora中images\径向渐变(同心).png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98(%E5%90%8C%E5%BF%83).png?raw=true
 
 - gradient.addColorStop(position, color)
 
@@ -198,7 +198,7 @@ var rr2=cxt.createRadialGradient(250,250,20,260,260,50);
   cxt.fill();
 ```
 
-![不同心(外包内)](C:\Users\Administrator\Desktop\canvas\Typora中images\不同心(外包内).png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E4%B8%8D%E5%90%8C%E5%BF%83(%E5%A4%96%E5%8C%85%E5%86%85).png?raw=true
 
 
 
@@ -213,7 +213,7 @@ var rr2=cxt.createRadialGradient(250,250,20,260,260,50);
     cxt.fillRect(100,100,300,300);
   ```
 
-![不同心(外与内分离)](C:\Users\Administrator\Desktop\canvas\Typora中images\不同心(外与内分离).png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E4%B8%8D%E5%90%8C%E5%BF%83(%E5%A4%96%E4%B8%8E%E5%86%85%E5%88%86%E7%A6%BB).png?raw=true
 
 #### 10.绘制一个弧线   或  圆
 
@@ -309,7 +309,7 @@ var rr2=cxt.createRadialGradient(250,250,20,260,260,50);
   ctx.restore();
   ```
 
-![移动](C:\Users\Administrator\Desktop\canvas\Typora中images\移动.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E7%A7%BB%E5%8A%A8.png?raw=true
 
 #### 15. 阴影 Shadows
 
@@ -362,8 +362,7 @@ cxt.restore();
 ```
 
 
-
-![旋转](C:\Users\Administrator\Desktop\canvas\Typora中images\旋转.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E6%97%8B%E8%BD%AC.png?raw=true
 
 #### 17.缩放
 
@@ -384,7 +383,7 @@ cxt.fillStyle="red";
 cxt.fillRect(20,20,50,50);
 ```
 
-![缩放](C:\Users\Administrator\Desktop\canvas\Typora中images\缩放.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E7%BC%A9%E6%94%BE.png?raw=true
 
 #### 18. **Canvas 填充规则**
 
@@ -399,7 +398,7 @@ cxt.beginPath();
   cxt.fill("evenodd");
 ```
 
-![填充规则](C:\Users\Administrator\Desktop\canvas\Typora中images\填充规则.png)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/%E5%A1%AB%E5%85%85%E8%A7%84%E5%88%99.png?raw=true
 
 #### 未完待续......
 
