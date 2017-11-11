@@ -44,7 +44,7 @@
     ctx.stroke();
 </script>
 
-![path](C:\Users\Administrator\Desktop\canvas\Typora中images\path.jpg)
+https://github.com/God-Lei/Typora-images/blob/master/Typora%E4%B8%ADimages/path.jpg?raw=true
 
 
 
